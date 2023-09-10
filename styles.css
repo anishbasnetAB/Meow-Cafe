@@ -1,0 +1,142 @@
+html{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #3C0E0E;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #F7F2E8;
+}
+
+header{
+    width: 80%;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  nav {
+    
+  }
+
+  nav a{
+    margin: 2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3C0E0E;
+    border-bottom: 3px solid transparent; /* Set initial border to transparent */
+    transition: border-bottom-color 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  nav a:hover {
+    border-bottom-color:#3C0E0E; /* Change border color on hover */
+  }
+  
+  nav a.selected {
+    border-bottom-color: #3C0E0E; /* Apply border color to the selected item */
+  }
+  
+  .headRight {
+    
+  }
+
+  .headRight button{
+    width: 100px;
+    height: 40px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #3C0E0E;
+    color: #fff;
+    
+  }
+
+  @media (max-width: 850px) {
+    nav {
+      flex-direction: column;
+      background-color: #fff;
+    }
+  }  
+
+/* 
+  =========MAiN====== */
+
+#main{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainLeft p{
+    max-width: 50ch;
+}
+
+.mainLeft h1{
+    font-size: 2rem;
+}
+
+.mainRight img{
+    max-width: 550px;
+}
+
+/* ==========DRINK=========== */
+
+#drink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1;
+}
+
+#drink h1{
+    border-bottom: 2px solid;
+    width:fit-content;
+}
+
+#drink p{
+    max-width: 60ch;
+    text-align: center;
+    margin: 20px;
+}
+
+.cards{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffcfcf;
+    border-radius: 10%;
+    width: 250px;
+    margin-right: 50px;
+}
+
+.card img{
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+}
+
+.card button{
+    background-color: #fff;
+    color: #3C0E0E;
+    border-radius:5%;
+    box-shadow: #F7F2E8;
+    border:none ;
+    height: 30px;
+    width: 100px;
+    margin-bottom:10px ;
+}
+
+
+/* =======Cross ===== */
+
+#Corss{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
